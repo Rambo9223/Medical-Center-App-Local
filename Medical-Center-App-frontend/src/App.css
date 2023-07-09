@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  background: rgb(203,216,255);
+  background: linear-gradient(0deg, rgba(80,124,255,1) 0%, rgba(49,208,254,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  width:100%;
+}
+
+.page-header{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: -0%;
+}
+
+.blackout-bar{
+  background-color: black;
+  color: rgb(0, 190, 0);
+  display: flex;
+  align-items: center;
+}
+.blackout-bar>h2 {
+  padding-left: 25%;
+}
+
+.date-time{
+  background-color: green;
+  color: white;
+  width: fit-content;
+}
+.nav-container{
+  background-color:white;
+  color: black;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spacer{
+  margin-bottom: 30%;
+}
+
+.route-container{
+  margin: auto;
+}
+.nav-routes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-routes>li{
+  padding: 0 5%;
+  position: relative;
+  left: -20%;
+}
+
+
+.nav-images{
+    width: 15%;
+    height: auto;
+  
+}
+
+.body{
+  padding-top: 25%;
+  width: 80%;
+
+}
+.title{
+  color: black;
+}
+
+.add-container{
+  padding: 20px 0px;
+  position: relative;
+  top: 0px;
+}
+
+#showlist,#editmany{
+  position: relative;
+  top: 30px;
+}
+
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.form-outline{
+  padding: 1% 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#logout-button{
+  padding-bottom: 1%;
+}
+.new-item-form, .edit-item-form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+

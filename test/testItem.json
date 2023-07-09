@@ -1,0 +1,9 @@
+{
+    "_id": "64a407b0dd6ff7a2289ad93test",
+    "patient": "Test Appointment",
+    "doctor": "Tom Jims",
+    "dateTime":"2023-07-21T14:30:00.000Z",
+    "appointmentNotes": "Follow up appointment",
+    "followUpNotes": "TBC",
+    "archived": false
+  }
