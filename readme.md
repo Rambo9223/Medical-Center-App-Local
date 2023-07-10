@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Rambo9223/Medical-Center-App">
+  <a href="https://github.com/Rambo9223/Medical-Center-App-Local">
     <img src="/Medical-Center-App-frontend/src/Components/Images/2.png" alt="Logo" width="120" height="120">
   </a>
 
@@ -24,10 +24,10 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/Rambo9223/Medical-Center-App"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Rambo9223/Medical-Center-App-Local"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="deployment link">View Demo</a>
+    <a href="https://victorious-beanie-fly.cyclic.app/">View Deployment</a>
     ·
   </p>
 </div>
@@ -329,7 +329,8 @@ Don't forget to give the project a star! Thanks again!
 
 Scott Ramsay - sct_r_9223@live.co.uk
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Medical-Center-App)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Medical-Center-App-Local)
+Deployment Link:[https://cyclic.deployment](https://victorious-beanie-fly.cyclic.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
