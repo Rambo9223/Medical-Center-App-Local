@@ -329,8 +329,9 @@ Don't forget to give the project a star! Thanks again!
 
 Scott Ramsay - sct_r_9223@live.co.uk
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/Rambo9223/Medical-Center-App-Local)
-Deployment Link:[https://cyclic.deployment](https://victorious-beanie-fly.cyclic.app/)
+*[Project Link](https://github.com/Rambo9223/Medical-Center-App-Local)
+
+*[Deployment Link](https://victorious-beanie-fly.cyclic.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
