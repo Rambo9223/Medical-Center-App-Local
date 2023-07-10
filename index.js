@@ -15,7 +15,8 @@ app.get('/welcome', (req,resp)=>{
     resp.status(200).send({message:"Welcome to the server!"});
 })
 
-
+/* The below code is required to connect the build of the frontend to 
+be accessed from the server side */
 app.use(express.static(path.join(__dirname, 'Medical-Center-App-frontend/build')));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'Medical-Center-App-frontend/build', 'index.html'),function(err){

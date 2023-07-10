@@ -53,6 +53,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#testing">Testing</a></li>
+    <li><a href="#deployment">Deployment</a></li>
     <li><a href="#future-changes">Future Changes</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -285,6 +286,35 @@ test will run. It should appear as follows:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Deployment -->
+## Deployment 
+* [Deployment Link](https://victorious-beanie-fly.cyclic.app/)
+
+The full project has been deployed to Cyclic. 
+The reason for this is Cyclic allows full stack deploys with some minimal changes. 
+The fontend of the project was built with npm build and using the below code in the index.js file
+on the sever side. We can access the frontend via localhost:5000 with all the same pathways that 
+would exist in the frontend react app. 
+
+![Server-Access-To-Build](/Screenshots/Build-Code.png)
+
+On initial deployment there were some challenges. 
+
+- Environment variables (.ENV) are not automatically configured by Cyclic so that needed to be added separatley.
+
+- Npm start conflicts. To access this project locally the start scripts outlined in the package.json file
+will install the required dependancies and then run the backend and frontend respectivley. In deployment
+this was causing a fatal error which would'nt allow the deployment to run correctly. 
+
+Cyclic runs it's deployments with the npm start command and automatically updates from new git commits.
+
+As the frontend is accessed via the backend with the above code and the frontend has been built with npm build.
+Rather than starting the frontend as we would normally with npm start we only need the server to be running. 
+So the ending start script for the build was "start":"node index.js" . 
+
+This however created a problem in itself, the requirement for the project stated that user need to be able to download the git repo and run the project with npm start. In the above configuration on npm start none of the 
+dependancies would be installed and the project would fail to compile. 
+A secondary git repo was created to hold the code for the local copy of the project, this alows users who wish to locally install the project to do so without having to change any start scripts. 
 
 
 <!-- Future Changes -->
@@ -329,9 +359,9 @@ Don't forget to give the project a star! Thanks again!
 
 Scott Ramsay - sct_r_9223@live.co.uk
 
-*[Project Link](https://github.com/Rambo9223/Medical-Center-App-Local)
+* [Project Link](https://github.com/Rambo9223/Medical-Center-App-Local)
 
-*[Deployment Link](https://victorious-beanie-fly.cyclic.app/)
+* [Deployment Link](https://victorious-beanie-fly.cyclic.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
